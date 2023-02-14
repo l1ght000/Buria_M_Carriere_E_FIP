@@ -17,3 +17,10 @@
     padding-left: 100px;
     padding-right: 100px;
 }
+
+#main-header{
+    top: 0;
+    background-color: #EDEDED;
+    justify-content: center;
+    height: 80px;
+}
