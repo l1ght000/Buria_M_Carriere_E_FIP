@@ -1,0 +1,19 @@
+.hidden{
+    display: none;
+}
+
+#container{
+    max-width: 1200px;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    background-color: #fff;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 80px);
+    grid-column-gap: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
