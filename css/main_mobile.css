@@ -42,8 +42,8 @@ img{
     display: block;
 }
 
-#main-nav input:checked ~ label img {
-    transform: rotate(90deg);
+#burger-svg {
+    margin-left: 350px;
 }
 
 #main-nav ul {
