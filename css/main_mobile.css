@@ -20,7 +20,6 @@ img{
     width: 428px;
     margin: 0 auto;
     background-color: #fff;
-    
 }
 .flex{
     display: flex;
@@ -44,6 +43,8 @@ img{
 
 #burger-svg {
     margin-left: 370px;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 
 #main-nav ul {
@@ -85,13 +86,13 @@ img{
     border-radius: 4px;
     border: none;
     text-align: center;
-    font-size: 10px;
-    width: 70px;
+    font-size: 13px;
+    width: 100px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    height: 20px;
-    margin-top: -40px;
+    height: 30px;
+    margin-top: -45px;
     margin-left: 40px;
     }
    
@@ -122,4 +123,81 @@ img{
         opacity: 1;
         right: 1;
         padding-right: 13px;
+      }
+
+      #main-content{
+        position: relative;
+    }
+    #our-product{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .Products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .container-gallery {
+        flex-basis: 70%;
+        position: relative;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #BC8D5A;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }
+      
+      .container-gallery:hover .overlay {
+        height: 97.5%;
+        margin-bottom: 10px;
+      }
+      
+      .text {
+        white-space: nowrap;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        text-align: center;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+
+      .overlay-btn{
+        background-color: #DDC3A5; /* Green */
+        border: 2px solid #201E20;
+        color: #201E20;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 200px;
+      }
+
+      .overlay-btn:hover{
+        background-color: #201E20;
+        border: 2px solid #fff;
+        color: #ffffff;
       }
