@@ -26,6 +26,10 @@ img{
     display: flex;
 }
 
+#main-header {
+    background-color: #E0A96D;
+}
+
 #main-logo{
     grid-column: 1/4;
 }
@@ -38,8 +42,8 @@ img{
     display: block;
 }
 
-#main-nav input:checked ~ label img {
-    transform: rotate(90deg);
+#burger-svg {
+    margin-left: 350px;
 }
 
 #main-nav ul {
@@ -52,15 +56,21 @@ img{
     display: block;
     padding: 10px 0 10px 0;
     text-align: center;
-    color: #626262;
+    color: #fff;
+    background-color: #E0A96D;
+}
+
+#main-nav ul li a:hover{
+    color: #201E20;
+    background-color: #DDC3A5;
 }
 
 #main-nav ul li {
-    border-bottom: 1px solid #efefef;
+    border-bottom: 2px solid #efefef;
 }
 
 #main-nav ul li:first-child {
-    border-top: 1px solid #efefef;
+    border-top: 2px solid #efefef;
 }
 
 #main-nav ul li:last-child {
