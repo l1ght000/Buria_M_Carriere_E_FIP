@@ -17,7 +17,7 @@ img{
 }
 
 #container{
-    max-width: 1200px;
+    width: 400px;
     margin: 0 auto;
     background-color: #fff;
     
@@ -29,35 +29,43 @@ img{
 #main-logo{
     grid-column: 1/4;
 }
-.topnav {
-    background-color: #E0A96D;
-    overflow: hidden;
-    width: 1200px;
-  }
-  
-  .topnav a {
-    float: right;
-    color: #f2f2f2;
+
+#main-nav input, #burger-con {
+    display: none;
+}
+
+#main-nav input:checked ~ #burger-con {
+    display: block;
+}
+
+#main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #DDC3A5;
-    color: black;
-  }
-  
+    color: #626262;
+}
 
-  .topnav a.active {
-    background-color: #201E20;
-    color: white;
-  }
+#main-nav ul li {
+    border-bottom: 1px solid #efefef;
+}
 
-  .slideshow-container {
-    position: relative;
-  }
+#main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+    margin-bottom: 10px;
+}
  
   #first-button{
       position: absolute;
