@@ -163,7 +163,7 @@ img{
       }
 
       .overlay-btn{
-        background-color: #DDC3A5; /* Green */
+        background-color: #DDC3A5; 
         border: 2px solid #201E20;
         color: #201E20;
         padding: 16px 32px;
@@ -183,8 +183,20 @@ img{
         color: #ffffff;
       }
 
+#about-us{
+    background-color: #E0A96D;
+    margin-top: 20px;
+}
+
+
 .About{
     background-color: #E0A96D;
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 20px;
+    width: fit-content;
 }
 
 #our-story{
@@ -192,18 +204,63 @@ img{
         font-size: 35px;
         font-weight: 400;
 }
+
+.about-text{
+    flex: 1;
+	margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
 #about-image{
-    float: right;
-    margin: 0 0 10px 10px;
-}
-
-.About p{
-    font-size: 25px;
-    float: left;
-    flex-wrap: wrap;
-    padding-left: 20px;
-    padding-right: 20px;
+    flex: 1;
+	text-align: right;
 }
 
 
 
+#second-button{
+    margin-top: 10px;
+	padding: 10px;
+    background-color: #201E20;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 160px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+   
+    #second-button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+    
+    #second-button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+     
+    
+    
+    #second-button:hover{
+    background-color: #BC8D5A;
+    color: rgb(0, 0, 0);
+    padding-right: 25px;
+    }
+
+    #second-button:hover span:after {
+        opacity: 1;
+        right: 1;
+      }
