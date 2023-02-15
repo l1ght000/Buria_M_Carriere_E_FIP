@@ -97,3 +97,9 @@ img{
         background-color: #BC8D5A;
       color: rgb(0, 0, 0);
       }
+
+      .learnmore-button {
+        margin-top: -40px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+      }
