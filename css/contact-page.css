@@ -54,8 +54,98 @@ img{
     background-color: #201E20;
     color: white;
   }
+  #container{
+    background-color: #DDC3A5;
 
+  }
 
+  /*contact form goes here*/
+
+  .contact-container{
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  .contact-box{
+    background-color: #FFF;
+    display: flex;
+  }
+  .contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+  }
+  .contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #201E20;
+    color: white;
+  }
+  .contact-container h1{
+    margin-bottom: 10px;
+  }
+  .contact-container p{
+    margin-bottom: 40px;
+  }
+  .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .input-group .input-row{
+    flex-basis: 45%;
+  }
+  input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+  }
+  textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  label{
+    margin-bottom: 6px;
+    display: block;
+    color: #201E20;
+  }
+  .contact-container button{
+    background: #201E20;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(26, 24, 22, 0.692);
+
+  }
+  .contact-container button:hover{
+    background-color: #999999;
+    color: #201E20;
+  }
+  .contact-container h3{
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .contact-container h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  tr td:first-child{
+    padding-right: 20px;
+
+  }
+  tr td:first-child{
+    padding-top: 20px;
+
+  }
 
   /*footer goes here*/
   footer {
