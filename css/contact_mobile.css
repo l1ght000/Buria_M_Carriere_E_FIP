@@ -87,7 +87,11 @@ img{
     background-color: #FFF;
     display: flex;
   }
+  .contact-left{
+    flex-basis: 60%;
+  }
   .contact-right{
+    flex-basis: 40%;
     padding: 40px;
     background: #201E20;
     color: white;
