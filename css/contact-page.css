@@ -1,0 +1,138 @@
+.hidden{
+    display: none;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+#main-logo{
+    grid-column: 1/4;
+}
+.topnav {
+    background-color: #E0A96D;
+    overflow: hidden;
+    width: 1200px;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #DDC3A5;
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #201E20;
+    color: white;
+  }
+
+
+
+  /*footer goes here*/
+  footer {
+    background-color: #201E20;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
+  }
+
+  #left-footer {
+    text-align: left;
+  }
+
+  #product-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  #right-footer {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #nav-social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  #social-icons-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 10px;
+  }
+
+  #social-icons-footer div {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #999999;
+  }
+
+  #social-icons-footer div:first-child {
+    margin-left: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  nav li:first-child {
+    margin-left: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  #copyright {
+    text-align: right;
+  }  
