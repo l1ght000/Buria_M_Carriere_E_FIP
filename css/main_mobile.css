@@ -17,64 +17,83 @@ img{
 }
 
 #container{
-    max-width: 1200px;
+    width: 428px;
     margin: 0 auto;
     background-color: #fff;
-    
 }
 .flex{
     display: flex;
-    flex-direction: column;
 }
+
+#main-header {
+    background-color: #E0A96D;
+}
+
 #main-logo{
     grid-column: 1/4;
 }
-.topnav {
-    background-color: #E0A96D;
-    overflow: hidden;
-    width: 1200px;
-  }
-  
-  .topnav a {
-    float: right;
-    color: #f2f2f2;
+
+#main-nav input, #burger-con {
+    display: none;
+}
+
+#main-nav input:checked ~ #burger-con {
+    display: block;
+}
+
+#burger-svg {
+    margin-left: 370px;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
+    color: #fff;
+    background-color: #E0A96D;
+}
+
+#main-nav ul li a:hover{
+    color: #201E20;
     background-color: #DDC3A5;
-    color: black;
-  }
-  
+}
 
-  .topnav a.active {
-    background-color: #201E20;
-    color: white;
-  }
+#main-nav ul li {
+    border-bottom: 2px solid #efefef;
+}
 
-  .slideshow-container {
-    position: relative;
-  }
+#main-nav ul li:first-child {
+    border-top: 2px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+    margin-bottom: 10px;
+}
  
-  #first-button{
+#first-button{
     position: absolute;
-    top: 570px;
-    left: 100px;
     background-color: #f1f1f1;
     color: #E0A96D;
     display: inline-block;
     border-radius: 4px;
     border: none;
     text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
+    font-size: 13px;
+    width: 100px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    height: 30px;
+    margin-top: -45px;
+    margin-left: 40px;
     }
    
     #first-button span {
@@ -98,39 +117,38 @@ img{
     .learnmore-button #first-button:hover{
     background-color: #BC8D5A;
     color: rgb(0, 0, 0);
-    padding-right: 25px;
     }
 
     #first-button:hover span:after {
         opacity: 1;
         right: 1;
+        padding-right: 13px;
       }
 
-
-
-    #main-content{
+      #main-content{
         position: relative;
     }
     #our-product{
         text-align: center;
-        font-size: 35px;
+        font-size: 20px;
         font-weight: 400;
     }
 
     .Products {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
       }
       
       .container-gallery {
-        flex-basis: 32%;
+        flex-basis: 70%;
         position: relative;
       }
       
       .image {
-        display: inline-block;
+        display: block;
         width: 100%;
+        margin-bottom: 10px;
       }
       
       .overlay {
@@ -146,7 +164,8 @@ img{
       }
       
       .container-gallery:hover .overlay {
-        height: 100%;
+        height: 97.5%;
+        margin-bottom: 10px;
       }
       
       .text {
@@ -163,7 +182,7 @@ img{
       }
 
       .overlay-btn{
-        background-color: #DDC3A5; 
+        background-color: #DDC3A5; /* Green */
         border: 2px solid #201E20;
         color: #201E20;
         padding: 16px 32px;
@@ -183,89 +202,88 @@ img{
         color: #ffffff;
       }
 
-#about-us{
-    background-color: #E0A96D;
-    margin-top: 20px;
-}
-
-
-.About{
-    background-color: #E0A96D;
-    display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin: 20px;
-	padding: 20px;
-    width: fit-content;
-}
-
-#our-story{
-    text-align: center;
-        font-size: 35px;
-        font-weight: 400;
-}
-
-.about-text{
-    flex: 1;
-	margin-right: 20px;
-    margin-bottom: 30px;
-    font-size: 20px;
-}
-
-#about-image{
-    flex: 1;
-	text-align: right;
-}
-
-
-
-#second-button{
-    margin-top: 10px;
-	padding: 10px;
-    background-color: #201E20;
-    color: #ffffff;
-    display: inline-block;
-    border-radius: 4px;
-    border: none;
-    text-align: center;
-    font-size: 18px;
-    padding: 20px;
-    width: 160px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+      #about-us{
+        background-color: #E0A96D;
+        margin-top: 20px;
     }
-   
-    #second-button span {
-        cursor: pointer;
+    
+    
+    .About{
+        background-color: #E0A96D;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        padding: 20px;
+        width: fit-content;
+    }
+    
+    #our-story{
+        text-align: center;
+            font-size: 25px;
+            font-weight: 400;
+            margin-bottom: -60px;
+    }
+    
+    .about-text{
+        flex: 1;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #about-img {
+        margin-bottom: 20px;
+    }
+    
+    
+    
+    #second-button{
+        padding: 20px;
+        background-color: #201E20;
+        color: #ffffff;
         display: inline-block;
-        position: relative;
-        transition: 0.5s;
-      }
+        border-radius: 4px;
+        border: none;
+        text-align: center;
+        font-size: 18px;
+        padding: 20px;
+        width: 160px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        }
+       
+        #second-button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+          }
+        
+        #second-button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+          }
+         
+        
+        
+        #second-button:hover{
+        background-color: #BC8D5A;
+        color: rgb(0, 0, 0);
+        padding-right: 25px;
+        }
     
-    #second-button span:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
-     
-    
-    
-    #second-button:hover{
-    background-color: #BC8D5A;
-    color: rgb(0, 0, 0);
-    padding-right: 25px;
-    }
+        #second-button:hover span:after {
+            opacity: 1;
+            right: 1;
+          }
 
-    #second-button:hover span:after {
-        opacity: 1;
-        right: 1;
-      }
-
-/*Footer goes here*/
 
 footer {
     background-color: #201E20;
@@ -275,6 +293,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     color: #ffffff;
+    margin-top: -20px;
   }
 
   #left-footer {
