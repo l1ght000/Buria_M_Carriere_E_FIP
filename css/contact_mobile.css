@@ -51,10 +51,12 @@ img{
 }
 
 #main-nav ul li a {
-    display: block;
-    text-align: center;
-    color: #fff;
-    background-color: #E0A96D;
+  display: block;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #E0A96D;
+  font-size: 20px;
 }
 
 #main-nav ul li a:hover{
