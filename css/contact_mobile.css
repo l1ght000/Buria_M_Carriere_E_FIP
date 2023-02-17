@@ -188,84 +188,94 @@ img{
   .contact-right tr td:last-child{
     text-align: right;
   }
+
+  /* Footer container */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+
+#left-footer {
+  flex: 1;
+  max-width: 400px;
+}
+
+#product-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#left-footer p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#right-footer {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-social-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 30px;
+}
+
+footer nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer nav li {
+  margin-right: 20px;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#social-icons-footer {
+  display: flex;
+}
+
+#social-icons-footer div {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-size: cover;
+}
+
+#instagram-footer {
+  background-image: url('instagram-icon.png');
+}
+
+#facebook-footer {
+  background-image: url('facebook-icon.png');
+}
+
+#twitter-footer {
+  background-image: url('twitter-icon.png');
+}
+
+#copyright {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+  flex-basis: 100%;
+  margin-top: 20px;
+}
+
   
 
-  /*footer goes here*/
-  footer {
-    background-color: #201E20;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: #ffffff;
-  }
-
-  #left-footer {
-    text-align: left;
-  }
-
-  #product-name {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-
-  #right-footer {
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  #nav-social-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-
-  #social-icons-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-left: 10px;
-  }
-
-  #social-icons-footer div {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    background-color: #999999;
-  }
-
-  #social-icons-footer div:first-child {
-    margin-left: 0;
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav li {
-    display: inline-block;
-    margin-left: 10px;
-  }
-
-  nav li:first-child {
-    margin-left: 0;
-  }
-
-  nav a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-  }
-
-  #copyright {
-    text-align: right;
-  }  
+  
