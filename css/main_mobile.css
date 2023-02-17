@@ -29,8 +29,10 @@ img{
     background-color: #E0A96D;
 }
 
-#main-logo{
-    grid-column: 1/4;
+#logo{
+    height: 50px;
+    flex-direction: column;
+    align-self: center;
 }
 
 #main-nav input, #burger-con {
@@ -44,7 +46,7 @@ img{
 #burger-svg {
     margin-left: 370px;
     justify-content: center;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 #main-nav ul {
