@@ -225,7 +225,7 @@ img{
         text-align: center;
             font-size: 25px;
             font-weight: 400;
-            margin-bottom: -60px;
+            margin-bottom: -20px;
     }
     
     .about-text{
@@ -293,7 +293,8 @@ img{
             flex-wrap: wrap;
             justify-content: space-between;
             padding: 30px;
-            background-color: #f5f5f5;
+            background-color: #070707;
+            color: #fff;
           }
           
           #left-footer {
@@ -338,9 +339,14 @@ img{
           
           footer nav a {
             text-decoration: none;
-            color: #333;
+            color: #ffffff;
             font-size: 14px;
             font-weight: bold;
+          }
+          footer nav a:hover{
+            color: #999999;
+            text-decoration: underline;
+            transition: 0.3s;
           }
           
           #social-icons-footer {
@@ -373,5 +379,3 @@ img{
             flex-basis: 100%;
             margin-top: 20px;
           }
-          
-            
