@@ -32,7 +32,7 @@ img{
 #logo{
     height: 50px;
     flex-direction: column;
-    align-self: center;
+    margin-bottom: -40px;
 }
 
 #main-nav input, #burger-con {

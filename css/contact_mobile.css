@@ -26,8 +26,10 @@ img{
     background-color: #E0A96D;
 }
 
-#main-logo{
-    grid-column: 1/4;
+#logo{
+  height: 50px;
+  flex-direction: column;
+  margin-bottom: -40px;
 }
 
 #main-nav input, #burger-con {
