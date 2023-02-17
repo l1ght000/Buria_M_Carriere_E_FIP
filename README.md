@@ -1,5 +1,5 @@
 # Buria_M FIP Project - BILLY BEER
-TODO: Write a project description
+TODO: Beer Product Website
 ## Installation
 TODO: Describe the installation process
 ## Usage
